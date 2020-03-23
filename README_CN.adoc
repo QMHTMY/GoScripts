@@ -1,0 +1,38 @@
+= Go脚本
+Shieber
+
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+
+:uri-license: https://github.com/QMHTMY/GoScripts/blob/master/LICENSE
+:uri-readme-cn: https://github.com/QMHTMY/GoScripts/blob/master/README_CN.adoc
+
+== 兼容系统
+* Linux 
+* Mac OS
+
+== 描述
+[link:README.adoc[English]] 几个go命令行脚本。
+
+== 脚本
+. QRcode - 以url生成二维码
+. newCurl - 打印出给定网址的html源码
+. ASCIIcode - 打印出给定字符的ascii值
+
+== 使用
+. 第一个 `./QRcode http://xxxx.xxx.xxx`
+. 第二个 `./newCurl http://xxxx.xxx.xxx`
+. 第三个 `./ASCIIcode xxx`
+
+== 参考资料
+* https://books.studygolang.com/gopl-zh/ch0/ch0-01.html[gopl]
+
+== 版权声明
+Copyright (C) 2019-2020 Shieber，在 link:LICENSE[APACHE LICENSE]下开源。
