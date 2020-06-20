@@ -36,4 +36,4 @@ endif::[]
 
 == Copyright
 Copyright (C) 2019-2020 Shieber. +
-See the link:LICENSE[LICENSE] file for free use of this script granted under the terms of the Apache License.
+See the link:LICENSE[LICENSE] file for free use of these scripts granted under the terms of the Apache License.
