@@ -25,11 +25,13 @@ endif::[]
 . QRcode - 以url生成二维码
 . newCurl - 打印出给定网址的html源码
 . ASCIIcode - 打印出给定字符的ascii值
+. SpinChars - 打印任务处理等待提示
 
 == 使用
-. 第一个 `./QRcode http://xxxx.xxx.xxx`
-. 第二个 `./newCurl http://xxxx.xxx.xxx`
-. 第三个 `./ASCIIcode xxx`
+. QRcode - `./QRcode http://xxxx.xxx.xxx`
+. newCurl - `./newCurl http://xxxx.xxx.xxx`
+. ASCIIcode - `./ASCIIcode xxx`
+. SpinChars - `./SpinChars`
 
 == 参考资料
 * https://books.studygolang.com/gopl-zh/ch0/ch0-01.html[gopl]

@@ -25,11 +25,13 @@ endif::[]
 . QRcode - insert a url into a qrcode image.
 . newCurl - print website's html.
 . ASCIIcode - print each char's ascii value.
+. SpinChars - print status bar while doing jobs.
 
 == Usage
 . QRcode - `./QRcode http://xxxx.xxx.xxx`
 . newCurl - `./newCurl http://xxxx.xxx.xxx`
 . ASCIIcode - `./ASCIIcode xxx`
+. SpinChars - `./SpinChars`
 
 == Reference
 * https://books.studygolang.com/gopl-zh/ch0/ch0-01.html[gopl]
