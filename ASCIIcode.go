@@ -3,17 +3,19 @@
 package main
 
 import (
-	"os"
 	"fmt"
 	"log"
+	"os"
 )
 
-func init(){
-    if len(os.Args) != 2 {
-        log.Fatal("Usage: " + os.Args[0] + " xxx")
-    }
+// init提前检测参数
+func init() {
+	if len(os.Args) != 2 {
+		log.Fatal("Usage: " + os.Args[0] + " xxx")
+	}
 }
 
+// main输出对应字符得unicode码点值
 func main() {
 	for i := 0; i < len(os.Args[1:]); i++ {
 		for _, c := range os.Args[i+1] {
