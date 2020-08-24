@@ -26,12 +26,14 @@ endif::[]
 . newCurl - 打印出给定网址的html源码
 . ASCIIcode - 打印出给定字符的ascii值
 . SpinChars - 打印任务处理等待提示
+. saveMode - 打印计算机数据存储模式(大小端)
 
 == 使用
 . QRcode - `./QRcode http://xxxx.xxx.xxx`
 . newCurl - `./newCurl http://xxxx.xxx.xxx`
 . ASCIIcode - `./ASCIIcode xxx`
 . SpinChars - `./SpinChars`
+. saveMode - `./saveMode`
 
 == 参考资料
 * https://books.studygolang.com/gopl-zh/ch0/ch0-01.html[gopl]
